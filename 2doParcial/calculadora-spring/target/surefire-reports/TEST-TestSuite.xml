@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.018" tests="29" errors="0" skipped="0" failures="29">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\dani\1-2021\com470\parciales\2doParcial\calculadora-spring-main"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\dani\1-2021\com470\parciales\2doParcial\calculadora-spring-main"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DANI\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_271\bin;C:\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.9\sbin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.9\sbin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\CMake\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\apache-maven-3.8.1\bin;C:\Users\DANI\AppData\Local\Microsoft\WindowsApps;C:\Users\DANI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DANI\AppData\Roaming\Composer\vendor\bin;C:\Users\DANI\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;;C:\Users\DANI\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.4\bin;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\DANI"/>
+    <property name="user.timezone" value="America/La_Paz"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="DANI"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testAdd" classname="com.example.controllers.CalculatorControllerNGTest" time="0.008">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.add(CalculatorController.java:24)
+	at com.example.controllers.CalculatorControllerNGTest.testAdd(CalculatorControllerNGTest.java:52)
+</failure>
+    <system-out><![CDATA[Configuring TestNG with: TestNG652Configurator
+add
+]]></system-out>
+  </testcase>
+  <testcase name="testClearAdvanced" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.clearAdvanced(CalculatorController.java:79)
+	at com.example.controllers.CalculatorControllerNGTest.testClearAdvanced(CalculatorControllerNGTest.java:196)
+</failure>
+    <system-out><![CDATA[clearAdvanced
+]]></system-out>
+  </testcase>
+  <testcase name="testClearSimple" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.clearSimple(CalculatorController.java:72)
+	at com.example.controllers.CalculatorControllerNGTest.testClearSimple(CalculatorControllerNGTest.java:180)
+</failure>
+    <system-out><![CDATA[clearSimple
+]]></system-out>
+  </testcase>
+  <testcase name="testDivide" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.divide(CalculatorController.java:42)
+	at com.example.controllers.CalculatorControllerNGTest.testDivide(CalculatorControllerNGTest.java:100)
+</failure>
+    <system-out><![CDATA[divide
+]]></system-out>
+  </testcase>
+  <testcase name="testFactorial" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.factorial(CalculatorController.java:66)
+	at com.example.controllers.CalculatorControllerNGTest.testFactorial(CalculatorControllerNGTest.java:164)
+</failure>
+    <system-out><![CDATA[factorial
+]]></system-out>
+  </testcase>
+  <testcase name="testFibonacci" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.fibonacci(CalculatorController.java:48)
+	at com.example.controllers.CalculatorControllerNGTest.testFibonacci(CalculatorControllerNGTest.java:116)
+</failure>
+    <system-out><![CDATA[fibonacci
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCalculatorPage" classname="com.example.controllers.CalculatorControllerNGTest" time="0.002">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.getCalculatorPage(CalculatorController.java:18)
+	at com.example.controllers.CalculatorControllerNGTest.testGetCalculatorPage(CalculatorControllerNGTest.java:36)
+</failure>
+    <system-out><![CDATA[getCalculatorPage
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiply" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.multiply(CalculatorController.java:36)
+	at com.example.controllers.CalculatorControllerNGTest.testMultiply(CalculatorControllerNGTest.java:84)
+</failure>
+    <system-out><![CDATA[multiply
+]]></system-out>
+  </testcase>
+  <testcase name="testPower" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.power(CalculatorController.java:60)
+	at com.example.controllers.CalculatorControllerNGTest.testPower(CalculatorControllerNGTest.java:148)
+</failure>
+    <system-out><![CDATA[power
+]]></system-out>
+  </testcase>
+  <testcase name="testSqrt" classname="com.example.controllers.CalculatorControllerNGTest" time="0.001">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.sqrt(CalculatorController.java:54)
+	at com.example.controllers.CalculatorControllerNGTest.testSqrt(CalculatorControllerNGTest.java:132)
+</failure>
+    <system-out><![CDATA[sqrt
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtract" classname="com.example.controllers.CalculatorControllerNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.subtract(CalculatorController.java:30)
+	at com.example.controllers.CalculatorControllerNGTest.testSubtract(CalculatorControllerNGTest.java:68)
+</failure>
+    <system-out><![CDATA[subtract
+]]></system-out>
+  </testcase>
+  <testcase name="testGetA" classname="com.example.model.OperationModelNGTest" time="0.002">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testGetA(OperationModelNGTest.java:36)
+</failure>
+    <system-out><![CDATA[getA
+]]></system-out>
+  </testcase>
+  <testcase name="testGetB" classname="com.example.model.OperationModelNGTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testGetB(OperationModelNGTest.java:63)
+</failure>
+    <system-out><![CDATA[getB
+]]></system-out>
+  </testcase>
+  <testcase name="testGetC" classname="com.example.model.OperationModelNGTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testGetC(OperationModelNGTest.java:117)
+</failure>
+    <system-out><![CDATA[getC
+]]></system-out>
+  </testcase>
+  <testcase name="testGetOperation" classname="com.example.model.OperationModelNGTest" time="0.001">
+    <failure message="expected [] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.example.model.OperationModelNGTest.testGetOperation(OperationModelNGTest.java:88)
+</failure>
+    <system-out><![CDATA[getOperation
+]]></system-out>
+  </testcase>
+  <testcase name="testSetA" classname="com.example.model.OperationModelNGTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetA(OperationModelNGTest.java:49)
+</failure>
+    <system-out><![CDATA[setA
+]]></system-out>
+  </testcase>
+  <testcase name="testSetB" classname="com.example.model.OperationModelNGTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetB(OperationModelNGTest.java:76)
+</failure>
+    <system-out><![CDATA[setB
+]]></system-out>
+  </testcase>
+  <testcase name="testSetC" classname="com.example.model.OperationModelNGTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetC(OperationModelNGTest.java:130)
+</failure>
+    <system-out><![CDATA[setC
+]]></system-out>
+  </testcase>
+  <testcase name="testSetOperation" classname="com.example.model.OperationModelNGTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetOperation(OperationModelNGTest.java:103)
+</failure>
+    <system-out><![CDATA[setOperation
+]]></system-out>
+  </testcase>
+  <testcase name="testAdd" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.add(CalculateSimple.java:11)
+	at com.example.service.CalculateSimpleNGTest.testAdd(CalculateSimpleNGTest.java:35)
+</failure>
+    <system-out><![CDATA[add
+]]></system-out>
+  </testcase>
+  <testcase name="testClearAdvanced" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.clearAdvanced(CalculateSimple.java:62)
+	at com.example.service.CalculateSimpleNGTest.testClearAdvanced(CalculateSimpleNGTest.java:170)
+</failure>
+    <system-out><![CDATA[clearAdvanced
+]]></system-out>
+  </testcase>
+  <testcase name="testClearSimple" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.clearSimple(CalculateSimple.java:56)
+	at com.example.service.CalculateSimpleNGTest.testClearSimple(CalculateSimpleNGTest.java:155)
+</failure>
+    <system-out><![CDATA[clearSimple
+]]></system-out>
+  </testcase>
+  <testcase name="testDivide" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.divide(CalculateSimple.java:23)
+	at com.example.service.CalculateSimpleNGTest.testDivide(CalculateSimpleNGTest.java:80)
+</failure>
+    <system-out><![CDATA[divide
+]]></system-out>
+  </testcase>
+  <testcase name="testFactorial" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.factorial(CalculateSimple.java:29)
+	at com.example.service.CalculateSimpleNGTest.testFactorial(CalculateSimpleNGTest.java:95)
+</failure>
+    <system-out><![CDATA[factorial
+]]></system-out>
+  </testcase>
+  <testcase name="testFibonacci" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.fibonacci(CalculateSimple.java:37)
+	at com.example.service.CalculateSimpleNGTest.testFibonacci(CalculateSimpleNGTest.java:110)
+</failure>
+    <system-out><![CDATA[fibonacci
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiply" classname="com.example.service.CalculateSimpleNGTest" time="0.001">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.multiply(CalculateSimple.java:19)
+	at com.example.service.CalculateSimpleNGTest.testMultiply(CalculateSimpleNGTest.java:65)
+</failure>
+    <system-out><![CDATA[multiply
+]]></system-out>
+  </testcase>
+  <testcase name="testPower" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.power(CalculateSimple.java:52)
+	at com.example.service.CalculateSimpleNGTest.testPower(CalculateSimpleNGTest.java:140)
+</failure>
+    <system-out><![CDATA[power
+]]></system-out>
+  </testcase>
+  <testcase name="testSqrt" classname="com.example.service.CalculateSimpleNGTest" time="0.001">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.sqrt(CalculateSimple.java:48)
+	at com.example.service.CalculateSimpleNGTest.testSqrt(CalculateSimpleNGTest.java:125)
+</failure>
+    <system-out><![CDATA[sqrt
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtract" classname="com.example.service.CalculateSimpleNGTest" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.subtract(CalculateSimple.java:15)
+	at com.example.service.CalculateSimpleNGTest.testSubtract(CalculateSimpleNGTest.java:50)
+</failure>
+    <system-out><![CDATA[subtract
+]]></system-out>
+  </testcase>
+</testsuite>

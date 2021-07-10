@@ -1,0 +1,154 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 29, Errors: 0, Skipped: 0, Time elapsed: 0.599 sec <<< FAILURE! - in TestSuite
+testAdd(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.add(CalculatorController.java:24)
+	at com.example.controllers.CalculatorControllerNGTest.testAdd(CalculatorControllerNGTest.java:52)
+
+testClearAdvanced(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.clearAdvanced(CalculatorController.java:79)
+	at com.example.controllers.CalculatorControllerNGTest.testClearAdvanced(CalculatorControllerNGTest.java:196)
+
+testClearSimple(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.clearSimple(CalculatorController.java:72)
+	at com.example.controllers.CalculatorControllerNGTest.testClearSimple(CalculatorControllerNGTest.java:180)
+
+testDivide(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.divide(CalculatorController.java:42)
+	at com.example.controllers.CalculatorControllerNGTest.testDivide(CalculatorControllerNGTest.java:100)
+
+testFactorial(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.factorial(CalculatorController.java:66)
+	at com.example.controllers.CalculatorControllerNGTest.testFactorial(CalculatorControllerNGTest.java:164)
+
+testFibonacci(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.fibonacci(CalculatorController.java:48)
+	at com.example.controllers.CalculatorControllerNGTest.testFibonacci(CalculatorControllerNGTest.java:116)
+
+testGetCalculatorPage(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.getCalculatorPage(CalculatorController.java:18)
+	at com.example.controllers.CalculatorControllerNGTest.testGetCalculatorPage(CalculatorControllerNGTest.java:36)
+
+testMultiply(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.multiply(CalculatorController.java:36)
+	at com.example.controllers.CalculatorControllerNGTest.testMultiply(CalculatorControllerNGTest.java:84)
+
+testPower(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.power(CalculatorController.java:60)
+	at com.example.controllers.CalculatorControllerNGTest.testPower(CalculatorControllerNGTest.java:148)
+
+testSqrt(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.sqrt(CalculatorController.java:54)
+	at com.example.controllers.CalculatorControllerNGTest.testSqrt(CalculatorControllerNGTest.java:132)
+
+testSubtract(com.example.controllers.CalculatorControllerNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.controllers.CalculatorController.subtract(CalculatorController.java:30)
+	at com.example.controllers.CalculatorControllerNGTest.testSubtract(CalculatorControllerNGTest.java:68)
+
+testGetA(com.example.model.OperationModelNGTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testGetA(OperationModelNGTest.java:36)
+
+testGetB(com.example.model.OperationModelNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testGetB(OperationModelNGTest.java:63)
+
+testGetC(com.example.model.OperationModelNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testGetC(OperationModelNGTest.java:117)
+
+testGetOperation(com.example.model.OperationModelNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.example.model.OperationModelNGTest.testGetOperation(OperationModelNGTest.java:88)
+
+testSetA(com.example.model.OperationModelNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetA(OperationModelNGTest.java:49)
+
+testSetB(com.example.model.OperationModelNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetB(OperationModelNGTest.java:76)
+
+testSetC(com.example.model.OperationModelNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetC(OperationModelNGTest.java:130)
+
+testSetOperation(com.example.model.OperationModelNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.example.model.OperationModelNGTest.testSetOperation(OperationModelNGTest.java:103)
+
+testAdd(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.add(CalculateSimple.java:11)
+	at com.example.service.CalculateSimpleNGTest.testAdd(CalculateSimpleNGTest.java:35)
+
+testClearAdvanced(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.clearAdvanced(CalculateSimple.java:62)
+	at com.example.service.CalculateSimpleNGTest.testClearAdvanced(CalculateSimpleNGTest.java:170)
+
+testClearSimple(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.clearSimple(CalculateSimple.java:56)
+	at com.example.service.CalculateSimpleNGTest.testClearSimple(CalculateSimpleNGTest.java:155)
+
+testDivide(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.divide(CalculateSimple.java:23)
+	at com.example.service.CalculateSimpleNGTest.testDivide(CalculateSimpleNGTest.java:80)
+
+testFactorial(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.factorial(CalculateSimple.java:29)
+	at com.example.service.CalculateSimpleNGTest.testFactorial(CalculateSimpleNGTest.java:95)
+
+testFibonacci(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.fibonacci(CalculateSimple.java:37)
+	at com.example.service.CalculateSimpleNGTest.testFibonacci(CalculateSimpleNGTest.java:110)
+
+testMultiply(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.multiply(CalculateSimple.java:19)
+	at com.example.service.CalculateSimpleNGTest.testMultiply(CalculateSimpleNGTest.java:65)
+
+testPower(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.power(CalculateSimple.java:52)
+	at com.example.service.CalculateSimpleNGTest.testPower(CalculateSimpleNGTest.java:140)
+
+testSqrt(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.sqrt(CalculateSimple.java:48)
+	at com.example.service.CalculateSimpleNGTest.testSqrt(CalculateSimpleNGTest.java:125)
+
+testSubtract(com.example.service.CalculateSimpleNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.example.service.CalculateSimple.subtract(CalculateSimple.java:15)
+	at com.example.service.CalculateSimpleNGTest.testSubtract(CalculateSimpleNGTest.java:50)
+
