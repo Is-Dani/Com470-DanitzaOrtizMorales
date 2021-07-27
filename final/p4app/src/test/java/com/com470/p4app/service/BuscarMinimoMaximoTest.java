@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized;
 
 /**
  *
- * @author CHELO
+ * @author DANI
  */
 @RunWith(Parameterized.class)
 public class BuscarMinimoMaximoTest {
